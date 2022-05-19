@@ -7,9 +7,9 @@
 
 <!-- /!\ do not modify above this line -->
 
-# management-system
+# Management System
 
-TODO: add repo description.
+Odoo modules to support management systems
 
 <!-- /!\ do not modify below this line -->
 
@@ -21,8 +21,21 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[document_page_environment_manual](document_page_environment_manual/) | 15.0.1.0.0 |  | Document Management - Wiki - Environment Manual
+[document_page_environmental_aspect](document_page_environmental_aspect/) | 15.0.1.0.0 |  | Environmental Aspects
+[document_page_procedure](document_page_procedure/) | 15.0.1.0.0 |  | Document Management - Wiki - Procedures
+[document_page_quality_manual](document_page_quality_manual/) | 15.0.1.0.0 |  | Quality Manual
+[document_page_work_instruction](document_page_work_instruction/) | 15.0.1.0.0 |  | Document Management - Wiki - Work Instructions
 [mgmtsystem](mgmtsystem/) | 15.0.1.0.0 |  | Management System
 [mgmtsystem_action](mgmtsystem_action/) | 15.0.1.0.0 |  | Management System - Action
+[mgmtsystem_claim](mgmtsystem_claim/) | 15.0.1.0.0 |  | Management System - Claim
+[mgmtsystem_hazard](mgmtsystem_hazard/) | 15.0.1.0.0 |  | Hazard
+[mgmtsystem_hazard_risk](mgmtsystem_hazard_risk/) | 15.0.1.0.0 |  | Hazard Risk
+[mgmtsystem_manual](mgmtsystem_manual/) | 15.0.1.0.0 |  | Management System - Manual
+[mgmtsystem_nonconformity](mgmtsystem_nonconformity/) | 15.0.1.0.0 |  | Management System - Nonconformity
+[mgmtsystem_nonconformity_hr](mgmtsystem_nonconformity_hr/) | 15.0.1.0.0 |  | Bridge module between hr and mgmsystem and
+[mgmtsystem_review](mgmtsystem_review/) | 15.0.1.0.0 |  | Management System - Review
+[mgmtsystem_survey](mgmtsystem_survey/) | 15.0.1.0.0 |  | Management System - Survey
 
 [//]: # (end addons)
 
