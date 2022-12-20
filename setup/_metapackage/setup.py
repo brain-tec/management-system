@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo-addon-document_page_environment_manual>=15.0dev,<15.1dev',
         'odoo-addon-document_page_environmental_aspect>=15.0dev,<15.1dev',
+        'odoo-addon-document_page_health_safety_manual>=15.0dev,<15.1dev',
         'odoo-addon-document_page_procedure>=15.0dev,<15.1dev',
         'odoo-addon-document_page_quality_manual>=15.0dev,<15.1dev',
         'odoo-addon-document_page_work_instruction>=15.0dev,<15.1dev',
@@ -19,8 +20,10 @@ setuptools.setup(
         'odoo-addon-mgmtsystem_action_template>=15.0dev,<15.1dev',
         'odoo-addon-mgmtsystem_audit>=15.0dev,<15.1dev',
         'odoo-addon-mgmtsystem_claim>=15.0dev,<15.1dev',
+        'odoo-addon-mgmtsystem_environment>=15.0dev,<15.1dev',
         'odoo-addon-mgmtsystem_hazard>=15.0dev,<15.1dev',
         'odoo-addon-mgmtsystem_hazard_risk>=15.0dev,<15.1dev',
+        'odoo-addon-mgmtsystem_info_security_manual>=15.0dev,<15.1dev',
         'odoo-addon-mgmtsystem_manual>=15.0dev,<15.1dev',
         'odoo-addon-mgmtsystem_nonconformity>=15.0dev,<15.1dev',
         'odoo-addon-mgmtsystem_nonconformity_hr>=15.0dev,<15.1dev',
