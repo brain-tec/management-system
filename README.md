@@ -31,8 +31,15 @@ addon | version | maintainers | summary
 [mgmtsystem_action_efficacy](mgmtsystem_action_efficacy/) | 16.0.1.0.0 |  | Add information on the application of the Action.
 [mgmtsystem_action_template](mgmtsystem_action_template/) | 16.0.1.0.0 |  | Add Template management for Actions.
 [mgmtsystem_audit](mgmtsystem_audit/) | 16.0.1.0.0 |  | Management System - Audit
+[mgmtsystem_hazard](mgmtsystem_hazard/) | 16.0.1.0.0 |  | Hazard
 [mgmtsystem_manual](mgmtsystem_manual/) | 16.0.1.0.0 |  | Management System - Manual
 [mgmtsystem_nonconformity](mgmtsystem_nonconformity/) | 16.0.1.0.0 |  | Management System - Nonconformity
+[mgmtsystem_nonconformity_hr](mgmtsystem_nonconformity_hr/) | 16.0.1.0.0 |  | Bridge module between hr and mgmsystem and
+[mgmtsystem_nonconformity_mrp](mgmtsystem_nonconformity_mrp/) | 16.0.1.0.0 |  | Bridge module between mrp and mgmsystem
+[mgmtsystem_nonconformity_product](mgmtsystem_nonconformity_product/) | 16.0.1.0.0 |  | Bridge module between Product and Management System.
+[mgmtsystem_partner](mgmtsystem_partner/) | 16.0.1.0.0 |  | Add Management System reference on Partner's Contacts.
+[mgmtsystem_quality](mgmtsystem_quality/) | 16.0.1.0.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage your quality management system
+[mgmtsystem_review](mgmtsystem_review/) | 16.0.1.0.0 |  | Management System - Review
 [mgmtsystem_survey](mgmtsystem_survey/) | 16.0.1.0.0 |  | Management System - Survey
 
 [//]: # (end addons)
