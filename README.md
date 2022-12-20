@@ -23,6 +23,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [document_page_environment_manual](document_page_environment_manual/) | 14.0.1.0.0 |  | Document Management - Wiki - Environment Manual
 [document_page_environmental_aspect](document_page_environmental_aspect/) | 14.0.1.0.0 |  | Environmental Aspects
+[document_page_health_safety_manual](document_page_health_safety_manual/) | 14.0.1.0.0 |  | Health and Safety Manual
 [document_page_procedure](document_page_procedure/) | 14.0.1.0.0 |  | Document Management - Wiki - Procedures
 [document_page_quality_manual](document_page_quality_manual/) | 14.0.1.0.0 |  | Quality Manual
 [document_page_work_instruction](document_page_work_instruction/) | 14.0.1.0.0 |  | Document Management - Wiki - Work Instructions
@@ -32,8 +33,10 @@ addon | version | maintainers | summary
 [mgmtsystem_action_template](mgmtsystem_action_template/) | 14.0.1.1.0 |  | Add Template management for Actions.
 [mgmtsystem_audit](mgmtsystem_audit/) | 14.0.1.0.0 |  | Management System - Audit
 [mgmtsystem_claim](mgmtsystem_claim/) | 14.0.1.0.0 |  | Management System - Claim
+[mgmtsystem_environment](mgmtsystem_environment/) | 14.0.1.0.0 |  | Environment Management System
 [mgmtsystem_hazard](mgmtsystem_hazard/) | 14.0.1.0.1 |  | Hazard
 [mgmtsystem_hazard_risk](mgmtsystem_hazard_risk/) | 14.0.1.0.0 |  | Hazard Risk
+[mgmtsystem_info_security_manual](mgmtsystem_info_security_manual/) | 14.0.1.0.0 |  | Information Security Management System Manual
 [mgmtsystem_manual](mgmtsystem_manual/) | 14.0.1.1.0 |  | Management System - Manual
 [mgmtsystem_nonconformity](mgmtsystem_nonconformity/) | 14.0.2.0.0 |  | Management System - Nonconformity
 [mgmtsystem_nonconformity_hr](mgmtsystem_nonconformity_hr/) | 14.0.1.0.0 |  | Bridge module between hr and mgmsystem and
