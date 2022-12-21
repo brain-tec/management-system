@@ -23,6 +23,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [document_page_environment_manual](document_page_environment_manual/) | 16.0.1.0.0 |  | Document Management - Wiki - Environment Manual
 [document_page_environmental_aspect](document_page_environmental_aspect/) | 16.0.1.0.0 |  | Environmental Aspects
+[document_page_health_safety_manual](document_page_health_safety_manual/) | 16.0.1.0.0 |  | Health and Safety Manual
 [document_page_procedure](document_page_procedure/) | 16.0.1.0.0 |  | Document Management - Wiki - Procedures
 [document_page_quality_manual](document_page_quality_manual/) | 16.0.1.0.0 |  | Quality Manual
 [document_page_work_instruction](document_page_work_instruction/) | 16.0.1.0.0 |  | Document Management - Wiki - Work Instructions
@@ -31,7 +32,9 @@ addon | version | maintainers | summary
 [mgmtsystem_action_efficacy](mgmtsystem_action_efficacy/) | 16.0.1.0.0 |  | Add information on the application of the Action.
 [mgmtsystem_action_template](mgmtsystem_action_template/) | 16.0.1.0.0 |  | Add Template management for Actions.
 [mgmtsystem_audit](mgmtsystem_audit/) | 16.0.1.0.0 |  | Management System - Audit
+[mgmtsystem_environment](mgmtsystem_environment/) | 16.0.1.0.0 |  | Environment Management System
 [mgmtsystem_hazard](mgmtsystem_hazard/) | 16.0.1.0.0 |  | Hazard
+[mgmtsystem_hazard_risk](mgmtsystem_hazard_risk/) | 16.0.1.0.0 |  | Hazard Risk
 [mgmtsystem_manual](mgmtsystem_manual/) | 16.0.1.0.0 |  | Management System - Manual
 [mgmtsystem_nonconformity](mgmtsystem_nonconformity/) | 16.0.1.0.0 |  | Management System - Nonconformity
 [mgmtsystem_nonconformity_hr](mgmtsystem_nonconformity_hr/) | 16.0.1.0.0 |  | Bridge module between hr and mgmsystem and
