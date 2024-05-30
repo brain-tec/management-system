@@ -1,21 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * mgmtsystem_nonconformity
+# 	* mgmtsystem_nonconformity
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2018
-# falexandresilva <falexandresilva@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-15 18:09+0000\n"
-"PO-Revision-Date: 2024-05-29 21:37+0000\n"
-"Last-Translator: Rodrigo Macedo <sottomaiormacedotec@users.noreply."
-"translation.odoo-community.org>\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/oca/teams/"
-"23907/pt_BR/)\n"
-"Language: pt_BR\n"
+"PO-Revision-Date: 2024-05-29 15:34+0000\n"
+"Last-Translator: Mostafa Barmshory <mostafa.barmshory@gmail.com>\n"
+"Language-Team: none\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -25,12 +19,12 @@ msgstr ""
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__number_of_days_to_close
 msgid "# of days to close"
-msgstr "Nº De dias para fechar"
+msgstr "# زمان تبدیل سرنخ به فرصت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__number_of_nonconformities
 msgid "# of nonconformities"
-msgstr "# de não-conformidades"
+msgstr "# عدم تطابق‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__kanban_state
@@ -38,24 +32,23 @@ msgid ""
 "A kanban state indicates special situations affecting it:\n"
 " * Normal is the default situation\n"
 " * Blocked indicates something is preventing the progress of this task\n"
-" * Ready for next stage indicates the task is ready to be pulled to the next "
-"stage"
+" * Ready for next stage indicates the task is ready to be pulled to the next stage"
 msgstr ""
-"Um estado kanban indica situações especiais que o afetam:\n"
-"  * Normal é a situação padrão\n"
-"  * Bloqueado indica que algo está impedindo o progresso desta tarefa\n"
-"  * Pronto para o próximo estágio indica que a tarefa está pronta para ser "
-"puxada para o próximo estágio"
+"وضعیت کانبان نشان می‌دهد موقعیت‌های خاص بر آن تأثیر می‌گذارند.\n"
+"* نرمال، وضعیت پیش‌فرض است.\n"
+"* مسدود، نشان‌ می‌دهد چیزی مانع انجام این وظیفه است.\n"
+"* آماده برای مرحله‌‎ی بعد، نشان می‌دهد وظیفه آماده‌ی انتقال به مرحله‌ی بعد "
+"است"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_action
 msgid "Action"
-msgstr "Ação"
+msgstr "اقدام"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_needaction
 msgid "Action Needed"
-msgstr "Ação Necessária"
+msgstr "نیاز به اقدام"
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
@@ -65,13 +58,13 @@ msgstr "Ação Necessária"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 #, python-format
 msgid "Action Plan"
-msgstr "Plano de ação"
+msgstr "برنامه اجرایی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__action_comments
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Action Plan Comments"
-msgstr "Comentários do Plano de Ação"
+msgstr "توضیحات برنامه‌ی اجرایی"
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
@@ -81,57 +74,56 @@ msgid ""
 "Action plan  comments are required in order to put a nonconformity In "
 "Progress."
 msgstr ""
-"Os comentários do plano de ação são necessários para colocar uma não "
-"conformidade em andamento."
+"توضیحات برنامه‌ی اجرایی برای در دست اقدام قرار دادن یک عدم تطابق موردنیاز "
+"است."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__action_ids
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Actions"
-msgstr "Ações"
+msgstr "اقدامات"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_origin__active
 msgid "Active"
-msgstr "Ativo"
+msgstr "فعال"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__active
 msgid "Active?"
-msgstr "Ativo?"
+msgstr "فعال است؟"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_ids
 msgid "Activities"
-msgstr "Atividades"
+msgstr "فعالیت‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Decoração de Exceção de Atividade"
+msgstr "ترتیب فعالیت‌های استثناء"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_state
 msgid "Activity State"
-msgstr "Estado de Atividade"
+msgstr "وضعیت فعالیت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Ícone de tipo de atividade"
+msgstr "آیکون نوع فعالیت"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Add a description ..."
-msgstr "Adicionar uma descrição ..."
+msgstr "افزودن یک توضیح ..."
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
 #: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity.py:0
 #, python-format
 msgid "All actions must be done before closing a Nonconformity."
-msgstr ""
-"Todas as ações devem ser realizadas antes de fechar uma não conformidade."
+msgstr "تمام اقدامات باید پیش از بسته شدن یک عدم تطابق انجام شوند."
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
@@ -145,47 +137,47 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 #, python-format
 msgid "Analysis"
-msgstr "Análise"
+msgstr "تحلیل"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Analysis Confirmation"
-msgstr "Confirmação de análises"
+msgstr "تأیید تحلیل"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_origin_form
 msgid "Archived"
-msgstr "Arquivado"
+msgstr "بایگانی شده"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_attachment_count
 msgid "Attachment Count"
-msgstr "Contador de Anexo"
+msgstr "تعداد پیوست‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Author"
-msgstr "Autor"
+msgstr "مولف"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.bad_communication
 msgid "Bad communication"
-msgstr "Falha de Comunicacao"
+msgstr "ارتباط نامطلوب"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.bad_partner_relation
 msgid "Bad customer/supplier relation"
-msgstr "Relação clientes/fornecedores ruins"
+msgstr "رابطه با مشتری/عرضه‌‎کننده بد"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.badly_defined_need
 msgid "Badly defined need"
-msgstr "Necessidade mal definida"
+msgstr "نیازی که به شکل نادرست تعریف شده است"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields.selection,name:mgmtsystem_nonconformity.selection__mgmtsystem_nonconformity__kanban_state__blocked
 msgid "Blocked"
-msgstr "Bloqueado"
+msgstr "مسدود شده"
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
@@ -194,18 +186,18 @@ msgstr "Bloqueado"
 #: model:mgmtsystem.nonconformity.stage,name:mgmtsystem_nonconformity.stage_cancel
 #, python-format
 msgid "Cancelled"
-msgstr "Cancelada"
+msgstr "لغو شده"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__cause_ids
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause__name
 msgid "Cause"
-msgstr "Causa"
+msgstr "علت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_nonconformity_cause
 msgid "Cause of the nonconformity of the management system"
-msgstr "Causa da não conformidade do Sistema de Gestão"
+msgstr "علت عدم تطابق سیستم مدیریت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.actions.act_window,name:mgmtsystem_nonconformity.open_mgmtsystem_nonconformity_cause_list
@@ -213,27 +205,27 @@ msgstr "Causa da não conformidade do Sistema de Gestão"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_cause_filter
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Causes"
-msgstr "Causas"
+msgstr "علل"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Causes and Analysis"
-msgstr "Causas e Análises"
+msgstr "علل و تحلیل"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_cause_form
 msgid "Causes of nonconformity"
-msgstr "Causas da não conformidade"
+msgstr "علل عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause__child_ids
 msgid "Child Causes"
-msgstr "Sub Causas"
+msgstr "علل فرعی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_origin__child_ids
 msgid "Childs"
-msgstr "Filhos"
+msgstr "موارد فرعی"
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
@@ -243,32 +235,32 @@ msgstr "Filhos"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 #, python-format
 msgid "Closed"
-msgstr "Fechado"
+msgstr "بسته شده"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Closed Nonconformities"
-msgstr "Não Conformidades fechadas"
+msgstr "عدم تطابق‌های بسته شده"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__closing_date
 msgid "Closing Date"
-msgstr "Data de Encerramento"
+msgstr "تاریخ پایانی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__action_comments
 msgid "Comments on the action plan."
-msgstr "Comentários sobre o plano de ação."
+msgstr "توضیحات مربوط به برنامه اجرایی."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__company_id
 msgid "Company"
-msgstr "Empresa"
+msgstr "شرکت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__evaluation_comments
 msgid "Conclusions from the last effectiveness evaluation."
-msgstr "Conclusoes da avaliação de eficácia."
+msgstr "نتیجه‌‌ی آخرین ارزیابی‌های مربوط به کارآمدی."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__create_uid
@@ -277,7 +269,7 @@ msgstr "Conclusoes da avaliação de eficácia."
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__create_uid
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__create_uid
 msgid "Created by"
-msgstr "Criado por"
+msgstr "ایجاد شده توسط"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__create_date
@@ -286,18 +278,18 @@ msgstr "Criado por"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__create_date
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__create_date
 msgid "Created on"
-msgstr "Criado em"
+msgstr "ایجاد شده در تاریخ"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__days_since_updated
 msgid "Days Since Updated"
-msgstr "Dias desde a atualização"
+msgstr "تعداد روزهای سپری شده از آخرین به روزرسانی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause__sequence
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_origin__sequence
 msgid "Defines the order to present items"
-msgstr "Define a ordem para apresentar itens"
+msgstr "ترتیب ارائه‌ی موارد را مشخص می‌کند"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__description
@@ -306,12 +298,12 @@ msgstr "Define a ordem para apresentar itens"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__description
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Description"
-msgstr "Descrição"
+msgstr "توضیح"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.nc_origin_dr
 msgid "Direction Review"
-msgstr "Revisão da direção"
+msgstr "بازبینی مسیر"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__display_name
@@ -320,7 +312,7 @@ msgstr "Revisão da direção"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__display_name
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__display_name
 msgid "Display Name"
-msgstr "Mostrar nome"
+msgstr "نام کاربری"
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
@@ -330,97 +322,96 @@ msgstr "Mostrar nome"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 #, python-format
 msgid "Draft"
-msgstr "Rascunho"
+msgstr "پیش‌نویس"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Draft/New nonconformities"
-msgstr "Rascunho/Nova Não Conformidade"
+msgstr "پیش‌نویس/عدم تطابق‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_kanban
 msgid "Dropdown menu"
-msgstr "Menu suspenso"
+msgstr "منوی کشویی"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_kanban
 msgid "Edit"
-msgstr "Editar"
+msgstr "ویرایش"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Effectiveness Review"
-msgstr "Eficácia da revisão"
+msgstr "بررسی کارآمدی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mail_thread
 msgid "Email Thread"
-msgstr "Tópico de e-mail"
+msgstr "فهرست ایمیل‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__evaluation_comments
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Evaluation Comments"
-msgstr "Comentários de avaliações"
+msgstr "توضیحات مربوط به ارزیابی"
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
 #: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity.py:0
 #, python-format
 msgid "Evaluation Comments are required in order to close a Nonconformity."
-msgstr ""
-"Comentários de avaliação são necessários para fechar uma não-conformidade."
+msgstr "توضیحات ارزیابی برای بستن یک عدم تطابق موردنیاز هستند."
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.nc_origin_extenal_audit
 msgid "External Audit"
-msgstr "Auditoria externa"
+msgstr "حسابرسی خارج از سازمان"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.nc_origin_external_client
 msgid "External client complaint"
-msgstr "Queixa de cliente externo"
+msgstr "شکایت مشتری خارج از سازمان"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__user_id
 msgid "Filled in by"
-msgstr "Preenchido por"
+msgstr "تکمیل شده توسط"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__fold
 msgid "Folded in Kanban"
-msgstr "Guardado em Kanban"
+msgstr "قرار داده شده در کانبان"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_follower_ids
 msgid "Followers"
-msgstr "Seguidores"
+msgstr "دنبال‌کننده‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidores (Parceiros)"
+msgstr "دنبال‌کننده‌ها (شرکا)"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Ícone incrível da fonte, por ex. fa-tasks"
+msgstr "آیکون فونت awsome، مانند fa-task"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause__parent_id
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_origin__parent_id
 msgid "Group"
-msgstr "Grupo"
+msgstr "گروه"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Group By..."
-msgstr "Agrupar Por..."
+msgstr "گروه‌بندی براساس ..."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__has_message
 msgid "Has Message"
-msgstr "Tem Mensagem"
+msgstr "پیامی وجود دارد"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.actions.act_window,help:mgmtsystem_nonconformity.action_report_mgmtsystem_nonconformity
@@ -428,13 +419,13 @@ msgid ""
 "Have a general overview of all non conformities processed in the system by "
 "sorting them with specific criteria."
 msgstr ""
-"Tenha uma visão geral de todas as não conformidades processadas no sistema "
-"classificando-as com critérios específicos."
+"مروری کلی بر تمام عدم تطابق‌های پردازش شده در سیستم که براساس معیارهای خاصی "
+"دسته‎بندی شده‌اند."
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.hr_unavailable_inadequate
 msgid "Human resource not available or inadequate"
-msgstr "Recursos Humanos não disponivel ou inadequado"
+msgstr "منابع انسانی ناموجود یا ناکافی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__id
@@ -443,32 +434,32 @@ msgstr "Recursos Humanos não disponivel ou inadequado"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__id
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__id
 msgid "ID"
-msgstr "Identificação"
+msgstr "شناسه"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_exception_icon
 msgid "Icon"
-msgstr "Ícone"
+msgstr "آیکون"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ícone para indicar uma atividade de exceção."
+msgstr "آیکونی که نشان‌دهنده‌ی یک فعالیت استثناء است."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Se marcada, novas mensagens requerem sua atenção."
+msgstr "در صورت انتخاب این گزینه، باید پیام‌های جدید را بررسی کنید."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Se marcada, algumas mensagens tem um erro de entrega."
+msgstr "انتخاب این گزینه نشان می‌دهد که برخی پیام‌ها دارای خطای تحویل هستند."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__immediate_action_id
 msgid "Immediate Action"
-msgstr "Ação Imediata"
+msgstr "اقدام فوری"
 
 #. module: mgmtsystem_nonconformity
 #. odoo-python
@@ -479,48 +470,48 @@ msgstr "Ação Imediata"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 #, python-format
 msgid "In Progress"
-msgstr "Em andamento"
+msgstr "در جریان"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.information_not_available
 msgid "Information not available"
-msgstr "Informação não disponível"
+msgstr "اطلاعاتی در دسترس نیست"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.instruction_not_respected
 msgid "Instruction not respected"
-msgstr "Instrução não respeitada"
+msgstr "دستورالعمل‌ها رعایت نشده‌اند"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.demo_origin
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.nc_origin_internal_audit
 msgid "Internal Audit"
-msgstr "Auditoria interna"
+msgstr "حسابرسی داخلی"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.nc_origin_internal_client
 msgid "Internal client complaint"
-msgstr "Reclamação do cliente interno"
+msgstr "شکایت مشتری داخلی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_is_follower
 msgid "Is Follower"
-msgstr "É seguidor"
+msgstr "آیا دنبال‌کننده است"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__is_starting
 msgid "Is starting Stage"
-msgstr "Está começando o estágio"
+msgstr "آیا در مرحله‌ی شروع است"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__kanban_state
 msgid "Kanban State"
-msgstr "Estado do Kanban"
+msgstr "وضعیت کانبان"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.demo_cause
 msgid "Lack of expertise"
-msgstr "Falta de experiência"
+msgstr "عدم وجود تخصص"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity____last_update
@@ -529,7 +520,7 @@ msgstr "Falta de experiência"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity____last_update
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage____last_update
 msgid "Last Modified on"
-msgstr "Modificada pela última vez"
+msgstr "آخرین تاریخ اصلاح"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__write_uid
@@ -538,7 +529,7 @@ msgstr "Modificada pela última vez"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__write_uid
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__write_uid
 msgid "Last Updated by"
-msgstr "Última atualização por"
+msgstr "به روزرسانی شده توسط"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__write_date
@@ -547,73 +538,73 @@ msgstr "Última atualização por"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__write_date
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__write_date
 msgid "Last Updated on"
-msgstr "Última atualização em"
+msgstr "تاریخ آخرین به روزرسانی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Anexo Principal"
+msgstr "پیوست اصلی"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.severity,name:mgmtsystem_nonconformity.nonconformity_severity_maj
 msgid "Major"
-msgstr "Maior"
+msgstr "اصلی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.actions.act_window,name:mgmtsystem_nonconformity.action_report_mgmtsystem_nonconformity
 msgid "Management System Analysis"
-msgstr "Sistema de Gestão de Análise"
+msgstr "تحلیل سیستم مدیریت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__manager_user_id
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Manager"
-msgstr "Gerente"
+msgstr "مدیر"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_has_error
 msgid "Message Delivery error"
-msgstr "Mensagem de erro de entrega"
+msgstr "خطای تحویل پیام"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_ids
 msgid "Messages"
-msgstr "Mensagens"
+msgstr "پیام‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.severity,name:mgmtsystem_nonconformity.nonconformity_severity_min
 msgid "Minor"
-msgstr "Menor"
+msgstr "فرعی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Prazo da minha atividade"
+msgstr "سررسید فعالیت من"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__name
 msgid "Name"
-msgstr "Nome"
+msgstr "نام"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Próximo evento do calendário de atividades"
+msgstr "رویداد بعدی گاهشمار فعالیت‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Prazo para a próxima atividade"
+msgstr "سررسید فعالیت بعدی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_summary
 msgid "Next Activity Summary"
-msgstr "Resumo para a próxima atividade"
+msgstr "خلاصه‌ی فعالیت بعدی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_type_id
 msgid "Next Activity Type"
-msgstr "Próximo tipo de atividade"
+msgstr "نوع فعالیت بعدی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_account_account__non_conformity_ids
@@ -673,7 +664,7 @@ msgstr "Próximo tipo de atividade"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_survey_survey__non_conformity_ids
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_survey_user_input__non_conformity_ids
 msgid "Non Conformity"
-msgstr "Não conformidade"
+msgstr "عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_account_account__non_conformity_count
@@ -733,25 +724,25 @@ msgstr "Não conformidade"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_survey_survey__non_conformity_count
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_survey_user_input__non_conformity_count
 msgid "Non Conformity Count"
-msgstr "Contar Não conformidade"
+msgstr "تعداد عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #. odoo-javascript
 #: code:addons/mgmtsystem_nonconformity/static/src/components/chatter_topbar/chatter_topbar.xml:0
 #, python-format
 msgid "Non conformities"
-msgstr "Não conformidades"
+msgstr "عدم تطابق‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_report_mgmtsystem_nonconformity_graph
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_report_mgmtsystem_nonconformity_pivot
 msgid "Non conformity"
-msgstr "Não conformidade"
+msgstr "عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Non-Conformity"
-msgstr "Não-Conformidade"
+msgstr "عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.actions.act_window,name:mgmtsystem_nonconformity.open_mgmtsystem_nonconformity_list
@@ -761,165 +752,165 @@ msgstr "Não-Conformidade"
 #: model:ir.ui.menu,name:mgmtsystem_nonconformity.menu_open_nonconformity
 #: model:ir.ui.menu,name:mgmtsystem_nonconformity.menu_report_mgmtsystem_nonconformity_tree
 msgid "Nonconformities"
-msgstr "Não Conformidades"
+msgstr "عدم تطابق‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Nonconformities pending review"
-msgstr "Não-conformidades pendentes de revisão"
+msgstr "تأخیر در بازبینی عدم تطابق‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_nonconformity
 msgid "Nonconformity"
-msgstr "Não Conformidade"
+msgstr "عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_nonconformity_abstract
 msgid "Nonconformity Abstract"
-msgstr "Resumo de não conformidade"
+msgstr "چکیده‌ی عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_action__nonconformity_immediate_id
 msgid "Nonconformity Immediate"
-msgstr "Não Conformidades imediatas"
+msgstr "اقدام فوری برای عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.mgmtsystem_nonconformity_stage_form_view
 msgid "Nonconformity Stage"
-msgstr "Estágio de não-conformidade"
+msgstr "مرحله‌ی عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_nonconformity_stage
 msgid "Nonconformity Stages"
-msgstr "Estágios de não-conformidade"
+msgstr "مراحل عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Número de Ações"
+msgstr "تعداد اقدامات"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_has_error_counter
 msgid "Number of errors"
-msgstr "Número de erros"
+msgstr "تعداد خطاها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Número de mensagens que exigem ação"
+msgstr "تعداد پیام‌هایی که نیاز به اقدام دارند"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Número de mensagens com erro de entrega"
+msgstr "تعداد پیام‌های دارای خطای تحویل"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Open Nonconformities"
-msgstr "Não conformidades abertas"
+msgstr "بازکردن عدم تطابق‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__origin_ids
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_origin__name
 msgid "Origin"
-msgstr "Origem"
+msgstr "مبدأ"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_nonconformity_origin
 msgid "Origin of nonconformity of the management system"
-msgstr "Origem da não-conformidade do sistema de gestão"
+msgstr "مبدأ عدم تطابق سیستم مدیریت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.actions.act_window,name:mgmtsystem_nonconformity.open_mgmtsystem_nonconformity_origin_list
 #: model:ir.ui.menu,name:mgmtsystem_nonconformity.menu_open_nonconformity_origin
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_origin_filter
 msgid "Origins"
-msgstr "Origens"
+msgstr "مبادی"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_origin_form
 msgid "Origins of nonconformity"
-msgstr "Origens da não conformidade"
+msgstr "مبادی عدم تطابق"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause__parent_path
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_origin__parent_path
 msgid "Parent Path"
-msgstr "Caminho Pai"
+msgstr "مسیر اصلی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__partner_id
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Partner"
-msgstr "Parceiro"
+msgstr "شریک"
 
 #. module: mgmtsystem_nonconformity
 #: model:mail.message.subtype,description:mgmtsystem_nonconformity.subtype_pending
 #: model:mail.message.subtype,name:mgmtsystem_nonconformity.subtype_pending
 msgid "Pending Approval"
-msgstr "Aprovação pendente"
+msgstr "تأخیر در تأیید"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Plan Review"
-msgstr "Plano de revisão"
+msgstr "بازبینی برنامه"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__procedure_ids
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Procedure"
-msgstr "Procedimento"
+msgstr "روند"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.procedure_not_defined
 msgid "Procedure not defined"
-msgstr "Procedimento não definido"
+msgstr "روند نامشخص است"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.procedure_not_respected
 msgid "Procedure not respected"
-msgstr "Procedimento não respeitado"
+msgstr "روند رعایت نشده است"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Procedures"
-msgstr "Procedimentos"
+msgstr "روندها"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.nc_origin_process
 msgid "Process Execution"
-msgstr "Execução do processo"
+msgstr "اجرای فرآیند"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.nc_origin_qc
 msgid "Quality Committee"
-msgstr "Comitê de Qualidade"
+msgstr "کمیته‌ی کیفیت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields.selection,name:mgmtsystem_nonconformity.selection__mgmtsystem_nonconformity__kanban_state__done
 msgid "Ready for next stage"
-msgstr "Pronto para a próxima etapa"
+msgstr "آماده برای مرحله‌ی بعدی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__ref
 msgid "Reference"
-msgstr "Referência"
+msgstr "مرجع"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause__ref_code
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_origin__ref_code
 msgid "Reference Code"
-msgstr "Código de Referência"
+msgstr "کد ارجاع"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_action_form
 msgid "Related Nonconformities"
-msgstr "Não conformidades relacionadas"
+msgstr "عدم تطابق‌های مربوطه"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__reference
 msgid "Related to"
-msgstr "Relacionado a"
+msgstr "مربوط به"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__res_id
@@ -929,18 +920,18 @@ msgstr "Res."
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__res_model
 msgid "Res Model"
-msgstr "Modelo de resolução"
+msgstr ".Res Model"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__responsible_user_id
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "Responsible"
-msgstr "Responsável"
+msgstr "مسئول"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_user_id
 msgid "Responsible User"
-msgstr "Usuário Responsável"
+msgstr "کاربر مسئول"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause__sequence
@@ -948,42 +939,42 @@ msgstr "Usuário Responsável"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__sequence
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__sequence
 msgid "Sequence"
-msgstr "Sequência"
+msgstr "ترتیب"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.actions.act_window,name:mgmtsystem_nonconformity.open_mgmtsystem_nonconformity_severity_list
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__severity_id
 #: model:ir.ui.menu,name:mgmtsystem_nonconformity.menu_open_nonconformity_severity
 msgid "Severity"
-msgstr "Severidade"
+msgstr "شدت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_nonconformity_severity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_severity_form
 msgid "Severity of Complaints and Nonconformities"
-msgstr "Gravidade da reclamação ou não conformidade"
+msgstr "شدت شکایت‌ها و عدم تطابق‌ها"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__stage_id
 msgid "Stage"
-msgstr "Estágio"
+msgstr "مرحله"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__name
 msgid "Stage Name"
-msgstr "Nome estagio"
+msgstr "نام مرحله"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.actions.act_window,name:mgmtsystem_nonconformity.mgmtsystem_nonconformity_stage_action
 #: model:ir.ui.menu,name:mgmtsystem_nonconformity.menu_mgmtsystem_nonconformity_stages
 msgid "Stages"
-msgstr "Estágios"
+msgstr "مراحل"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__state
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__state
 msgid "State"
-msgstr "Situação"
+msgstr "وضعیت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_state
@@ -993,21 +984,21 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baseado em atividades\n"
-"Vencido: a data de vencimento já passou\n"
-"Hoje: a data da atividade é hoje\n"
-"Planejado: Atividades futuras."
+"وضعیت مبتنی بر فعالیت‌ها\n"
+"معوق: تاریخ سررسید گذشته است\n"
+"امروز: تاریخ اتمام فعالیت امروز است\n"
+"برنامه‌ریزی شده: فعالیت‌های آینده."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__system_id
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "System"
-msgstr "Sistema"
+msgstr "سیستم"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.technical_failure
 msgid "Technical failure"
-msgstr "Falha técnica"
+msgstr "مشکل فنی"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__fold
@@ -1015,53 +1006,53 @@ msgid ""
 "This stage is folded in the kanban view when there are \n"
 "no records in that stage to display."
 msgstr ""
-"Este estágio é dobrado na visão kanban quando houver\n"
-"Nenhum registro nesse estágio para exibir."
+"زمانی که هیچ سند بایگانی برای نمایش دادن وجود نداشته باشد، \n"
+"این مرحله در نمای کانبان قرارداده می‌شود."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__name
 msgid "Title"
-msgstr "Título"
+msgstr "عنوان"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Tipo da atividade de exceção registrada."
+msgstr "نوع فعالیت استثناء در سند بایگانی."
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.severity,name:mgmtsystem_nonconformity.nonconformity_severity_no
 msgid "Unfounded"
-msgstr "Infundada"
+msgstr "ناموجود"
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_kanban
 msgid "Unread Messages"
-msgstr "Mensagens não lidas"
+msgstr "پیام‌های خوانده نشده"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__sequence
 msgid "Used to order states. Lower is better."
-msgstr "Usado para ordenar estados. Menor é melhor."
+msgstr "برای مرتب‌سازی وضعیت‌ها به کار می‌رود. هرچه پایین‌تر بهتر."
 
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
 msgid "User"
-msgstr "Usuário"
+msgstr "کاربر"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__website_message_ids
 msgid "Website Messages"
-msgstr "Mensagens do website"
+msgstr "پیام‌های وب‌سایت"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__website_message_ids
 msgid "Website communication history"
-msgstr "Histórico de comunicação do site"
+msgstr "تاریخچه‌ی ارتباطات وب‌سایت"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.work_conditions
 msgid "Work conditions"
-msgstr "Condições de trabalho"
+msgstr "شرایط کاری"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__is_starting
@@ -1069,41 +1060,5 @@ msgid ""
 "select stis checkbox if this is the default stage \n"
 "for new nonconformities"
 msgstr ""
-"marque a caixa de seleção se este é o estágio padrão\n"
-"para novas não conformidades"
-
-#~ msgid "SMS Delivery error"
-#~ msgstr "Erro de entrega de SMS"
-
-#~ msgid "Number of messages which requires an action"
-#~ msgstr "Número de mensagens que requerem uma ação"
-
-#~ msgid "Number of unread messages"
-#~ msgstr "Número de mensagens não-lidas"
-
-#~ msgid "Unread Messages Counter"
-#~ msgstr "Contador de mensagens não lidas"
-
-#~ msgid "Followers (Channels)"
-#~ msgstr "Seguidores (Canais)"
-
-#~ msgid "Immediate action"
-#~ msgstr "Correção imediata"
-
-#~ msgid "Non-Conformities"
-#~ msgstr "Não Conformidades"
-
-#~ msgid "Error! Cannot create recursive cycle."
-#~ msgstr "Erro! Não é possível criar o ciclo de recursão."
-
-#~ msgid "If checked new messages require your attention."
-#~ msgstr "Se marcada novas mensagens requerem sua atenção."
-
-#~ msgid "Overdue"
-#~ msgstr "Inadimplente"
-
-#~ msgid "Planned"
-#~ msgstr "Planejado"
-
-#~ msgid "Today"
-#~ msgstr "Hoje"
+"اگر این مرحله به صورت پیش‌فرض برای عدم تطابق‌ها وجود دارد\n"
+"مربع را علامت بزنید"
