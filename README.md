@@ -23,6 +23,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [document_page_environment_manual](document_page_environment_manual/) | 19.0.1.0.0 |  | Document Management - Wiki - Environment Manual
 [document_page_environmental_aspect](document_page_environmental_aspect/) | 19.0.1.0.0 |  | Environmental Aspects
+[document_page_health_safety_manual](document_page_health_safety_manual/) | 19.0.1.0.0 |  | Document Management - Wiki - Health and Safety Manual
 [document_page_procedure](document_page_procedure/) | 19.0.1.0.0 |  | Document Management - Wiki - Procedures
 [document_page_quality_manual](document_page_quality_manual/) | 19.0.1.0.0 |  | Quality Manual
 [document_page_work_instruction](document_page_work_instruction/) | 19.0.1.0.0 |  | Document Management - Wiki - Work Instructions
@@ -30,6 +31,8 @@ addon | version | maintainers | summary
 [mgmtsystem_action](mgmtsystem_action/) | 19.0.1.0.0 |  | Management System - Action
 [mgmtsystem_audit](mgmtsystem_audit/) | 19.0.1.0.0 |  | Management System - Audit
 [mgmtsystem_hazard](mgmtsystem_hazard/) | 19.0.1.0.0 |  | Hazard
+[mgmtsystem_hazard_risk](mgmtsystem_hazard_risk/) | 19.0.1.0.0 |  | Hazard Risk
+[mgmtsystem_info_security_manual](mgmtsystem_info_security_manual/) | 19.0.1.0.0 |  | Information Security Management System Manual
 [mgmtsystem_manual](mgmtsystem_manual/) | 19.0.1.0.0 |  | Management System - Manual
 [mgmtsystem_nonconformity](mgmtsystem_nonconformity/) | 19.0.1.0.0 |  | Management System - Nonconformity
 [mgmtsystem_nonconformity_hr](mgmtsystem_nonconformity_hr/) | 19.0.1.0.0 |  | Bridge module between hr and mgmsystem and
