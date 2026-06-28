@@ -28,10 +28,10 @@ addon | version | maintainers | summary
 [document_page_quality_manual](document_page_quality_manual/) | 17.0.1.0.1 |  | Quality Manual
 [document_page_work_instruction](document_page_work_instruction/) | 17.0.1.0.1 |  | Document Management - Wiki - Work Instructions
 [mgmtsystem](mgmtsystem/) | 17.0.1.3.0 |  | Management System
-[mgmtsystem_action](mgmtsystem_action/) | 17.0.1.0.1 |  | Management System - Action
+[mgmtsystem_action](mgmtsystem_action/) | 17.0.1.1.0 |  | Management System - Action
 [mgmtsystem_action_efficacy](mgmtsystem_action_efficacy/) | 17.0.1.0.1 |  | Add information on the application of the Action.
 [mgmtsystem_action_template](mgmtsystem_action_template/) | 17.0.1.0.0 |  | Add Template management for Actions.
-[mgmtsystem_audit](mgmtsystem_audit/) | 17.0.1.2.0 |  | Management System - Audit
+[mgmtsystem_audit](mgmtsystem_audit/) | 17.0.1.3.0 |  | Management System - Audit
 [mgmtsystem_hazard](mgmtsystem_hazard/) | 17.0.1.1.0 |  | Hazard
 [mgmtsystem_hazard_risk](mgmtsystem_hazard_risk/) | 17.0.1.1.0 |  | Hazard Risk
 [mgmtsystem_health_safety](mgmtsystem_health_safety/) | 17.0.1.0.0 | <a href='https://github.com/max3903'><img src='https://github.com/max3903.png' width='32' height='32' style='border-radius:50%;' alt='max3903'/></a> | Manage your health and safety management system
