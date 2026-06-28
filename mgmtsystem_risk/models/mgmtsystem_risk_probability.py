@@ -1,12 +1,12 @@
-# Copyright (C) 2010 Savoir-faire Linux (<http://www.savoirfairelinux.com>).
+# Copyright (C) 2025 Gray Matter Logic (<https://www.graymatterlogic.com>).
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo import fields, models
 
 
-class MgmtsystemHazardProbability(models.Model):
-    _name = "mgmtsystem.hazard.probability"
-    _description = "Probability of hazard"
+class MgmtsystemRiskProbability(models.Model):
+    _name = "mgmtsystem.risk.probability"
+    _description = "Risk Probability"
 
     company_id = fields.Many2one(
         "res.company", "Company", required=True, default=lambda self: self.env.company
