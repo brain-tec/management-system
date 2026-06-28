@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [mgmtsystem_audit](mgmtsystem_audit/) | 16.0.1.1.0 |  | Management System - Audit
 [mgmtsystem_claim](mgmtsystem_claim/) | 16.0.1.1.1 |  | Management System - Claim
 [mgmtsystem_environment](mgmtsystem_environment/) | 16.0.1.0.0 |  | Environment Management System
-[mgmtsystem_evaluation](mgmtsystem_evaluation/) | 16.0.1.0.2 |  | Evaluate records within your management system
+[mgmtsystem_evaluation](mgmtsystem_evaluation/) | 16.0.1.1.0 |  | Evaluate records within your management system
 [mgmtsystem_evaluation_hr](mgmtsystem_evaluation_hr/) | 16.0.1.0.0 |  | Allow to use evaluations on Employees
 [mgmtsystem_hazard](mgmtsystem_hazard/) | 16.0.1.2.0 |  | Hazard
 [mgmtsystem_hazard_maintenance_equipment](mgmtsystem_hazard_maintenance_equipment/) | 16.0.1.0.0 |  | Management System - Maintenance Equipment
@@ -50,7 +50,7 @@ addon | version | maintainers | summary
 [mgmtsystem_nonconformity_maintenance_equipment](mgmtsystem_nonconformity_maintenance_equipment/) | 16.0.1.0.0 |  | Management System - Nonconformity Maintenance Equipment
 [mgmtsystem_nonconformity_mrp](mgmtsystem_nonconformity_mrp/) | 16.0.1.0.0 |  | Bridge module between mrp and mgmsystem
 [mgmtsystem_nonconformity_product](mgmtsystem_nonconformity_product/) | 16.0.1.0.0 |  | Bridge module between Product and Management System.
-[mgmtsystem_nonconformity_quality_control_oca](mgmtsystem_nonconformity_quality_control_oca/) | 16.0.1.0.0 |  | Bridge module between Quality Control and Non Conformities
+[mgmtsystem_nonconformity_quality_control_oca](mgmtsystem_nonconformity_quality_control_oca/) | 16.0.1.0.1 |  | Bridge module between Quality Control and Non Conformities
 [mgmtsystem_nonconformity_repair](mgmtsystem_nonconformity_repair/) | 16.0.1.0.0 |  | Bridge module between Repair and Non Conformities
 [mgmtsystem_nonconformity_type](mgmtsystem_nonconformity_type/) | 16.0.1.1.0 |  | Add Nonconformity classification for the root context.
 [mgmtsystem_partner](mgmtsystem_partner/) | 16.0.1.0.0 |  | Add Management System reference on Partner's Contacts.
