@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# management-system
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/management-system&target_branch=18.0)
 [![Pre-commit Status](https://github.com/OCA/management-system/actions/workflows/pre-commit.yml/badge.svg?branch=18.0)](https://github.com/OCA/management-system/actions/workflows/pre-commit.yml?query=branch%3A18.0)
 [![Build Status](https://github.com/OCA/management-system/actions/workflows/test.yml/badge.svg?branch=18.0)](https://github.com/OCA/management-system/actions/workflows/test.yml?query=branch%3A18.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/management-system-18-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/management-system-18-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# management-system
 
 management-system
 
@@ -32,7 +33,7 @@ addon | version | maintainers | summary
 [mgmtsystem_action](mgmtsystem_action/) | 18.0.1.0.2 |  | Management System - Action
 [mgmtsystem_action_efficacy](mgmtsystem_action_efficacy/) | 18.0.1.0.0 |  | Add information on the application of the Action.
 [mgmtsystem_action_template](mgmtsystem_action_template/) | 18.0.1.0.0 |  | Add Template management for Actions.
-[mgmtsystem_audit](mgmtsystem_audit/) | 18.0.1.1.0 |  | Management System - Audit
+[mgmtsystem_audit](mgmtsystem_audit/) | 18.0.1.3.0 |  | Management System - Audit
 [mgmtsystem_claim](mgmtsystem_claim/) | 18.0.1.0.0 |  | Management System - Claim
 [mgmtsystem_environment](mgmtsystem_environment/) | 18.0.1.0.0 |  | Environment Management System
 [mgmtsystem_hazard](mgmtsystem_hazard/) | 18.0.1.1.0 |  | Hazard
